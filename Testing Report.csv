@@ -1,0 +1,14 @@
+﻿Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Verify responsiveness on mobile devices,"1. Open the application on a mobile device.
+2. Check layout adjustments.
+3. Interact with elements like buttons and menus.",Application layout adjusts correctly and elements are fully functional on mobile.,Passed: Layout and elements function as expected.,Passed,Medium,Tested on iPhone and Android devices.
+TC002,Validate cross-browser compatibility,"1. Open the application on Chrome, Firefox, Safari, and Edge.
+2. Test core features like navigation and forms.",All features work consistently across browsers.,Passed: No issues found on any browser.,Passed,High,Covered latest versions of each browser.
+TC003,Simulate network failure for API error handling,"1. Disable network.
+2. Perform operations like loading products or submitting forms.",Fallback UI appears with user-friendly error messages.,Passed: Fallback UI and error messages displayed as expected.,Passed,High,Handled with try-catch blocks.
+TC004,Optimize performance using TinyPNG,"1. Compress images with TinyPNG.
+2. Measure page load times before and after optimization.",Page load time reduces significantly after image compression.,Passed: Perfomance score improved from 90 to 96.,Passed,Medium,Verified using Lighthouse.
+TC005,Validate form input to prevent injection attacks,"1. Input invalid or malicious data in forms.
+2. Submit the form and observe behavior.",Form validation prevents submission of invalid data.,Passed: Invalid inputs were successfully blocked.,Passed,High,Used regex for validation and sanitized inputs.
+TC006,Test product detail page dynamic routing,"1. Click on a product from the listing page.
+2. Verify the correct product details load.",The correct product details page loads dynamically.,Passed: Verified with multiple product IDs.,Passed,Medium,Tested with valid and invalid product IDs.
